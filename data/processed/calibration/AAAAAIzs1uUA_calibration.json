@@ -1,0 +1,63 @@
+{
+    "fingerprint": "AAAAAIzs1uUA",
+    "station_name": "Zane (Keller, TX)",
+    "reference_observatory": "BSL",
+    "calibration_date": "20260627",
+    "calibrated_at": "2026-06-29T06:35:18Z",
+    "A": [
+        [
+            0.7032877219577207,
+            0.043104729974899315,
+            0.5445760193851038
+        ],
+        [
+            0.16582775776993078,
+            -0.84589809259194,
+            -0.6734426592708143
+        ],
+        [
+            0.14526207216331477,
+            0.03484411245699313,
+            -0.0901155905451091
+        ]
+    ],
+    "b": [
+        30439.044457803695,
+        -26578.483921299623,
+        33950.43637219615
+    ],
+    "normalization": {
+        "ezie_mean": [
+            17973.57316867608,
+            1290.821710335557,
+            -35558.84865171767
+        ],
+        "ezie_std": [
+            12.782288065276203,
+            25.45136776438663,
+            10.62720300892699
+        ]
+    },
+    "fit_rmse_nT": {
+        "North": 3.9425,
+        "East": 5.9829,
+        "Down": 8.0844
+    },
+    "validation_rmse_nT": {
+        "North_before": 5797.2168,
+        "East_before": 2034.3142,
+        "Down_before": 75369.5844,
+        "North_after": 9883.5422,
+        "East_after": 12920.6209,
+        "Down_after": 4526.7896,
+        "Bh_before": 5762.5307,
+        "Bh_after": 6.1819
+    },
+    "singular_values": [
+        50.921981963625704,
+        37.53664875824692,
+        33.96582351404267,
+        21.9151679416126
+    ],
+    "notes": "Preliminary calibration - temperature correction not yet applied. By inversion handled implicitly by fit (A[1,1] = -0.845898). Residual RMSE reflects sensor noise floor (~6.1 nT) and real geomagnetic differences between Arlington TX and BSL (~500 miles)."
+}
